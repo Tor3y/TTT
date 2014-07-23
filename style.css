@@ -1,0 +1,38 @@
+
+.theBox {
+	width: 468px;
+	height: 468px;
+    border-style: solid;
+    border-color: red;
+    background-color: yellow;
+}
+
+.cell {
+    width: 150px;
+	height: 150px;
+	display: inline-block;
+    float: left;
+    margin: 0px ;
+    padding: 0px ;
+    border-style: solid;
+    border-color: black;
+    /*background-color: white;*/
+}
+
+.clear{
+    clear:both;
+}
+
+.xclass {
+	background-color: red ;
+    border: 1px solid red;
+}
+
+.oclass {
+	background-color: blue ;
+}
+
+.blankclass {
+	background-color: gray ;
+}
+

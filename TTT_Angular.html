@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html x-ng-app="TicTacToeApp">
+
+<head>
+	<title>Tic Tac Toe</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.16/angular.js"></script>
+	<script src="app.js"></script>
+</head>
+<body 
+
+<div ng-controller="gameCtrl">
+<div class="cell" x-ng-repeat="currentCell in board track by $index"
+ x-ng-class="{clear: $index % 3 == 0, xclass, oclass}" ng-click="alert('pong')"></div>
+		
+</div>
+
+</body>  
+</html>
